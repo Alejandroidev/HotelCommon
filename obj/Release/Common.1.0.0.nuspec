@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Common</id>
+    <version>1.0.0</version>
+    <authors>Common</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="a374196ae6683e49b3036b1c676572f5da416598" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Ardalis.Specification.EntityFrameworkCore" version="9.1.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper" version="12.0.0" exclude="Build,Analyzers" />
+        <dependency id="DevExtreme.AspNet.Core" version="23.1.6" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.12.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\USER\source\repos\HotelUV2.0.0\Common\bin\Release\net9.0\Common.dll" target="lib\net9.0\Common.dll" />
+  </files>
+</package>

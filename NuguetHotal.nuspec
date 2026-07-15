@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>HotelUArc.Common</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Milton Salcedo</Authors>
+    <Company>HotelUArc</Company>
+    <Description>Librería común para HotelUArc.</Description>
+    <PackageTags>hotel common dotnet</PackageTags>
+    <RepositoryUrl>https://github.com/Alejandroidev/HotelUArc</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExtreme.AspNet.Core" Version="23.1.6" />
+    <PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="9.1.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+  </ItemGroup>
+
+</Project>
